@@ -34,7 +34,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Install Bundler 1.17.3
-        run: gem install bundler:1.17.3
+        run: gem install bundler:1.17.3 --user-install
       - name: Setup Ruby
         uses: ruby/setup-ruby@8575951200e472d5f2d95c625da0c7bec8217c42 # v1.161.0
         with:
